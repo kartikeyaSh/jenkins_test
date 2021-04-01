@@ -8,7 +8,6 @@ pipeline {
         }
 	stage("test") {
 		      steps {
-		      sh 'apt-get install python'
 		      sh 'python test.py'
 		      }
 	}
